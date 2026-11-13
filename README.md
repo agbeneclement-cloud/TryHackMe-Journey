@@ -1,36 +1,45 @@
 # TryHackMe-Journey 🛡️
+My cybersecurity learning journey | Audit Intern @ BUA Cement Sokoto
 
-My cybersecurity learning journey as a Cyber Security student and Audit Intern at BUA Cement Sokoto.
+**TryHackMe:** https://tryhackme.com/p/agbeneclement
+**GitHub:** agbeneclement-cloud
+**Location:** Nigeria
 
-🔗 **TryHackMe:** https://tryhackme.com/p/agbeneclement
-🔗 **GitHub:** https://github.com/agbeneclement-cloud
-📍 Nigeria | 🎓 SIWES - Audit Department
+## ✅ Completed Rooms
 
-![TryHackMe Badge](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=agbeneclement)
+### 1. Guided Pentest: Web - RecruitX [COMPLETED]
+- **Room Link:** https://tryhackme.com/room/guidedpentestweb
+- **Date:** Nov 2026
+- **Status:** ✅ Completed
+- **Difficulty:** Easy-Medium
+- **Type:** Web Application Pentesting
+- **Scenario:** Client application RecruitX - internal recruitment portal
 
-### Profile Progress
-- [x] Account Created - May 2026
-- [x] Set Hacker Avatar
-- [ ] Complete First Room
-- [ ] Earn First Badge
+**Learning Objectives:**
+- Web recon and directory enumeration
+- Insecure Direct Object Reference (IDOR)
+- Exploiting weak password reset logic
+- Escalating to Admin panel
+- Achieving Remote Code Execution (RCE) and reverse shell
 
-## 🚀 Completed Rooms
-> Will be updated as I complete rooms
+**Tools Used:**
+- Gobuster / Dirb
+- Burp Suite
+- curl
+- Netcat (nc -lvnp)
 
-### 1. Tutorial - Coming Soon
-- Room: https://tryhackme.com/room/tutorial
-- Status: In Progress
-- Skills: TryHackMe basics, flags, VPN
+**Key Takeaway:**
+Real pentests are about chaining low/medium vulns. One IDOR led to account takeover, which led to admin access, which led to RCE. Not just finding one flag.
 
-## 🛠️ Skills I'm Building
-- Network Security
-- Linux Fundamentals
-- Web Hacking
-- SIEM / SOC Monitoring
-- Internal Audit & IT Controls
+**Methodology (No Spoilers):**
+Started with recon -> mapped application -> identified IDOR in application ID -> leveraged flawed password reset to take over hiring manager -> used admin upload feature to get shell -> upgraded to interactive reverse shell.
 
-## 🎯 Goals
-- Complete Pre-Security Learning Path
-- Complete SOC Level 1 Path
-- Earn Top 10% badge# TryHackMe-Journey
-My TryHackMe learning journey - documenting rooms, skills and cybersecurity growth
+---
+
+## 🎯 Next Targets
+- [ ] OWASP Top 10
+- [ ] Web Fundamentals Path
+- [ ] Jr Penetration Tester Path
+
+## 🛠️ Skills
+`Web Pentesting` `IDOR` `Burp Suite` `RCE` `Linux` `Audit & IT Controls`
